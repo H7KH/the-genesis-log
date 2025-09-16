@@ -1,0 +1,129 @@
+/* For LTR layout */
+.post-entry .entry-cover {
+    float: right;
+    width: 150px;
+    margin-left: var(--gap);
+    margin-bottom: 0;
+}
+
+/* For RTL layout */
+[dir="rtl"] .post-entry .entry-cover {
+    float: left;
+    margin-right: var(--gap);
+    margin-left: 0;
+}
+
+.post-entry::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.post-entry .entry-header,
+.post-entry .entry-content,
+.post-entry .entry-footer {
+    overflow: hidden;
+}
+
+.post-content {
+    line-height: 1.8;
+}
+
+.post-content a {
+    color: #5465ff;
+}
+
+/* Header padding */
+.header {
+    padding-top: 20px;
+}
+
+/* Header layout improvements */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0 20px;
+}
+
+.logo-switches {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Mobile responsive design */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        order: 1;
+        text-align: center;
+    }
+
+    #menu {
+        order: 2;
+        justify-content: center;
+        margin: 0;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .logo-switches {
+        order: 3;
+        justify-content: center;
+    }
+
+    #menu a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+/* For LTR layout */
+.post-entry .entry-cover {
+    float: right;
+    width: 150px;
+    margin-left: var(--gap);
+    margin-bottom: 0;
+}
+
+/* For RTL layout */
+[dir="rtl"] .post-entry .entry-cover {
+    float: left;
+    margin-right: var(--gap);
+    margin-left: 0;
+}
+
+.post-entry::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.post-entry .entry-header,
+.post-entry .entry-content,
+.post-entry .entry-footer {
+    overflow: hidden;
+}
+
+.post-content {
+    line-height: 1.8;
+}
+
+.post-content a {
+    color: #5465ff;
+}

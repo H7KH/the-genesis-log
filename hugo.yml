@@ -1,0 +1,35 @@
+baseURL: ""
+languageCode: en-us
+title: The Genesis Log
+theme: PaperMod
+
+params:
+  assets:
+    disableHLJS: true
+    favicon: "/favicons/my-favicon.ico"
+
+  label:
+    text: ""
+    icon: "/images/blog-logo.svg"
+    iconHeight: 40
+
+  ShowShareButtons: true
+
+  homeInfoParams:
+    Title: "₿"
+    Content: "به دنبال حقیقت"
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
