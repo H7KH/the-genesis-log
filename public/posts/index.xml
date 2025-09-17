@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on The Genesis Log</title>
-    <link>//localhost:1313/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on The Genesis Log</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>انقلاب مالکیت: از &#34;کمربند کاغذی&#34; تا حاکمیت کد</title>
-      <link>//localhost:1313/posts/from-paper-to-code/</link>
+      <link>http://localhost:1313/posts/from-paper-to-code/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/from-paper-to-code/</guid>
+      <guid>http://localhost:1313/posts/from-paper-to-code/</guid>
       <description>&lt;p&gt;ما در آستانه یک دگرگونی بنیادین در یکی از قدیمی‌ترین مفاهیم تمدن بشری ایستاده‌ایم: &lt;strong&gt;مالکیت&lt;/strong&gt;. برای قرن‌ها، حق ما بر دارایی‌هایمان—از خانه‌ای که در آن زندگی می‌کنیم تا ایده‌ای که خلق می‌کنیم—توسط یک زیرساخت عظیم و متمرکز تضمین شده است؛ سیستمی که می‌توان آن را &lt;strong&gt;&amp;ldquo;کمربند کاغذی&amp;rdquo;&lt;/strong&gt; نامید. این کمربند، متشکل از دولت‌ها، دفاتر اسناد رسمی، بانک‌ها و دادگاه‌ها، با استفاده از اسناد، مهرها و قوانین، اعتبار مالکیت ما را تأیید می‌کند. اما این سیستم سنتی، با تمام قدمتش، شکننده، کند و به شدت به اعتماد ما به نهادهای مرکزی وابسته است.&lt;/p&gt;</description>
     </item>
     <item>
       <title>پایان مرجعیت: بازتعریف حقیقت با رمزنگاری</title>
-      <link>//localhost:1313/posts/redefining-truth-cryptography/</link>
+      <link>http://localhost:1313/posts/redefining-truth-cryptography/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/redefining-truth-cryptography/</guid>
+      <guid>http://localhost:1313/posts/redefining-truth-cryptography/</guid>
       <description>&lt;p&gt;زنجیره تأمین اطلاعات ما از هم گسیخته است.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.google.com/search?client=firefox-b-d&amp;amp;q=Balaji+Srinivasan&#34;&gt;بالاجی سرینیواسان&lt;/a&gt;، سرمایه‌گذار فرشته و مدیر ارشد فناوری سابق کوین‌بیس، در یک سخنرانی کلیدی جذاب در اولین روز همایش &lt;code&gt;SmartCon #1&lt;/code&gt;، با بیان این جمله، مفهوم «دفتر کل مرجع» (ledger of record) را معرفی کرد. به باور او، این مفهوم می‌تواند و باید گذار از مدل ناقص جهانی «اطلاعات دستوری» (fiat information) به مدل «اطلاعات مبتنی بر رمزنگاری» (cryptoinformation) را تسهیل کند؛ مدلی که توسط اوراکل‌های غیرمتمرکز مانند &lt;a href=&#34;https://chain.link/&#34;&gt;Chainlink&lt;/a&gt; امکان‌پذیر شده است.&lt;/p&gt;</description>
     </item>

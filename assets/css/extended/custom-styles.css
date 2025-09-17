@@ -127,3 +127,72 @@
 .post-content a {
     color: #5465ff;
 }
+
+@media screen and (max-width: 768px) {
+    /* Reduce the font size of the main post title on single pages */
+    .post-single .post-title {
+        font-size: 24px; /* Default is 40px */
+    }
+
+    /* Reduce font size for page titles on list pages (Archives, Tags) */
+    .page-header h1 {
+        font-size: 24px; /* Default is 40px */
+    }
+
+    /* Reduce font size for post titles on the homepage/list pages */
+    .post-entry .entry-header h2 {
+        font-size: 18px; /* Default is 24px */
+    }
+
+    /* Reduce the font size of the body text in posts */
+    .post-content {
+        font-size: 14px; /* Default is 18px */
+    }
+
+    /* Reduce heading sizes within post content on mobile */
+    .post-content h1 {
+        font-size: 22px;
+    }
+    .post-content h2 {
+        font-size: 20px;
+    }
+    .post-content h3 {
+        font-size: 18px;
+    }
+    .post-content h4 {
+        font-size: 16px;
+    }
+    .post-content h5 {
+        font-size: 14px;
+    }
+    .post-content h6 {
+        font-size: 12px;
+    }
+
+    /* --- Styles for Archive, Tags, and Categories pages on Mobile --- */
+
+    /* Reduce font size for the year in archives */
+    .archive-year-header {
+        font-size: 22px;
+    }
+
+    /* Reduce font size for the month in archives */
+    .archive-month-header {
+        font-size: 20px;
+    }
+
+    /* Reduce font size for post titles in archives list */
+    .archive-entry-title {
+        font-size: 18px;
+    }
+
+    /* Reduce font size for post meta in archives list */
+    .archive-meta {
+        font-size: 12px;
+    }
+
+    /* Reduce font size for tags/categories links */
+    .terms-tags a {
+        font-size: 12px;
+    }
+}

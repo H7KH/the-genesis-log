@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on The Genesis Log</title>
-    <link>//localhost:1313/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on The Genesis Log</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Balaji Srinivasan</title>
-      <link>//localhost:1313/tags/balaji-srinivasan/</link>
+      <link>http://localhost:1313/tags/balaji-srinivasan/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/balaji-srinivasan/</guid>
+      <guid>http://localhost:1313/tags/balaji-srinivasan/</guid>
       <description></description>
     </item>
     <item>
       <title>Blockchain</title>
-      <link>//localhost:1313/tags/blockchain/</link>
+      <link>http://localhost:1313/tags/blockchain/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/blockchain/</guid>
+      <guid>http://localhost:1313/tags/blockchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Cryptography</title>
-      <link>//localhost:1313/tags/cryptography/</link>
+      <link>http://localhost:1313/tags/cryptography/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/cryptography/</guid>
+      <guid>http://localhost:1313/tags/cryptography/</guid>
       <description></description>
     </item>
     <item>
       <title>Truth</title>
-      <link>//localhost:1313/tags/truth/</link>
+      <link>http://localhost:1313/tags/truth/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/truth/</guid>
+      <guid>http://localhost:1313/tags/truth/</guid>
       <description></description>
     </item>
   </channel>

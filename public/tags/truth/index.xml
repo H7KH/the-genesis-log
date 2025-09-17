@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Truth on The Genesis Log</title>
-    <link>//localhost:1313/tags/truth/</link>
+    <link>http://localhost:1313/tags/truth/</link>
     <description>Recent content in Truth on The Genesis Log</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/truth/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/truth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>پایان مرجعیت: بازتعریف حقیقت با رمزنگاری</title>
-      <link>//localhost:1313/posts/redefining-truth-cryptography/</link>
+      <link>http://localhost:1313/posts/redefining-truth-cryptography/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/redefining-truth-cryptography/</guid>
+      <guid>http://localhost:1313/posts/redefining-truth-cryptography/</guid>
       <description>&lt;p&gt;زنجیره تأمین اطلاعات ما از هم گسیخته است.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.google.com/search?client=firefox-b-d&amp;amp;q=Balaji+Srinivasan&#34;&gt;بالاجی سرینیواسان&lt;/a&gt;، سرمایه‌گذار فرشته و مدیر ارشد فناوری سابق کوین‌بیس، در یک سخنرانی کلیدی جذاب در اولین روز همایش &lt;code&gt;SmartCon #1&lt;/code&gt;، با بیان این جمله، مفهوم «دفتر کل مرجع» (ledger of record) را معرفی کرد. به باور او، این مفهوم می‌تواند و باید گذار از مدل ناقص جهانی «اطلاعات دستوری» (fiat information) به مدل «اطلاعات مبتنی بر رمزنگاری» (cryptoinformation) را تسهیل کند؛ مدلی که توسط اوراکل‌های غیرمتمرکز مانند &lt;a href=&#34;https://chain.link/&#34;&gt;Chainlink&lt;/a&gt; امکان‌پذیر شده است.&lt;/p&gt;</description>
     </item>
