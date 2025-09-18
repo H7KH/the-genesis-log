@@ -2,6 +2,7 @@
 title: 'پایان مرجعیت: بازتعریف حقیقت با رمزنگاری'
 date: '2025-09-03'
 draft: false
+description: "بازتعریف حقیقت با رمزنگاری و تغییر پارادایم از استدلال بر پایه مرجعیت به استدلال بر پایه رمزنگاری."
 tags: ['Truth', 'Blockchain', 'Cryptography', 'Balaji Srinivasan']
 categories: ['Blockchain']
 cover:

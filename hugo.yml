@@ -4,6 +4,8 @@ title: The Genesis Log
 theme: PaperMod
 
 params:
+  description: "نوشتار‌ها و مقالاتی مرتبط با جست‌و‌جوی حقیقت در عصر دیجیتال با تمرکز بر بلاکچین، مالکیت واقعی و غیرمتمرکز. "
+
   assets:
     disableHLJS: true
     favicon: "/favicons/my-favicon.ico"

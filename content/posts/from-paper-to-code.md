@@ -2,6 +2,7 @@
 title: 'انقلاب مالکیت: از "کمربند کاغذی" تا حاکمیت کد'
 date: '2025-09-16'
 draft: false
+description: "نوشتاری در مورد اینکه چگونه مالکیت هوشمند (Smart Property) یک پارادایم جدید در مالکیت بشری را به چالش می‌کشد."
 tags: ['Blockchain', 'Balaji Srinivasan']
 categories: ['Blockchain']
 cover:
