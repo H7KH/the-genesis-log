@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Politics on The Genesis Log</title>
+    <link>http://localhost:1313/categories/politics/</link>
+    <description>Recent content in Politics on The Genesis Log</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/politics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> از قفس لویاتان تا کره دایسون</title>
+      <link>http://localhost:1313/posts/dyson-sphere-network-state-leviathan/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/dyson-sphere-network-state-leviathan/</guid>
+      <description>چگونه بازی‌های قدرت، ما را از تمدنی ستاره‌ای باز می‌دارند </description>
+    </item>
+  </channel>
+</rss>
