@@ -196,3 +196,65 @@
         font-size: 12px;
     }
 }
+
+/* --- Telegram Subscribe Box --- */
+.telegram-subscribe {
+    margin-top: 20px;
+    margin-bottom: 80px; /* Added bottom margin */
+    padding: 20px; /* Increased padding for better look */
+    background: #5465ff; /* New background color */
+    border: none; /* Removed border */
+    border-radius: var(--radius);
+    text-align: center;
+    transition:
+        transform 0.2s ease-in-out,
+        box-shadow 0.2s ease-in-out;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
+}
+
+.telegram-subscribe:hover {
+    transform: scale(1.03); /* Slightly larger hover effect */
+    box-shadow: 0 8px 25px rgba(84, 101, 255, 0.3); /* Enhanced shadow on hover */
+}
+
+.telegram-subscribe a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; /* White color for text and icon */
+    text-decoration: none;
+}
+
+.telegram-subscribe .telegram-icon svg {
+    width: 40px; /* Slightly larger icon */
+    height: 40px;
+    stroke-width: 1.5; /* Made icon lines a bit thinner */
+}
+
+[dir="ltr"] .telegram-subscribe .telegram-icon svg {
+    margin-right: 12px; /* For LTR */
+    margin-left: 0;
+}
+
+.telegram-subscribe .telegram-text {
+    font-size: 18px; /* Slightly larger text */
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+/* --- Responsive Styles for Telegram Box --- */
+@media screen and (max-width: 768px) {
+    /* Hide the Telegram icon on mobile/tablet */
+    .telegram-subscribe a svg {
+        display: none;
+    }
+
+    /* Remove the margin from the text when the icon is hidden */
+    [dir="rtl"] .telegram-subscribe .telegram-text {
+        margin-left: 0;
+    }
+
+    [dir="ltr"] .telegram-subscribe .telegram-text {
+        margin-right: 0;
+    }
+}

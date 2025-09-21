@@ -6,6 +6,8 @@ theme: PaperMod
 params:
   description: "نوشتار‌ها و مقالاتی مرتبط با جست‌و‌جوی حقیقت در عصر دیجیتال با تمرکز بر بلاکچین، مالکیت واقعی و غیرمتمرکز. "
 
+  telegram_channel_url: "https://t.me/thegenesislog"
+
   assets:
     disableHLJS: true
     favicon: "/favicons/my-favicon.ico"
