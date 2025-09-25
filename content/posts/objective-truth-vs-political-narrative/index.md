@@ -1,6 +1,6 @@
 ---
 title: "علم پایا، سیاست پویا"
-date: '2025-09-23'
+date: '2025-09-25'
 draft: false
 description: "چرا برخی از دانسته‌های بشری در طول تاریخ، استوار و بدون تغییر باقی می‌مانند، در حالی که برخی دیگر مدام دستخوش تغییر، تفسیر و تحریف می‌شوند؟"
 tags: ['Blockchain', 'Truth', 'Political Ideology', 'Philosophy', 'History', 'Mathematics']
