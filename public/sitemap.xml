@@ -2,19 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/blockchain/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blockchain/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/governance/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/history/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mathematics/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/political-ideology/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/politics/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/truth/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/objective-truth-vs-political-narrative/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/dyson-sphere-network-state-leviathan/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/balaji-srinivasan/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/blockchain/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/blockchain/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/dao/</loc>
@@ -23,28 +56,10 @@
     <loc>http://localhost:1313/tags/decentralization/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/governance/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/politics/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/from-paper-to-code/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cryptography/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/truth/</loc>
     <lastmod>2025-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/redefining-truth-cryptography/</loc>
