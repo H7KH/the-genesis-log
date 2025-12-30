@@ -1,304 +1,501 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
+  <head>
+    <meta name="generator" content="Hugo 0.149.0" />
+    <script
+      src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload"
+      data-no-instant
+      defer
+    ></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>The Genesis Log</title>
 
-<head>
-	<meta name="generator" content="Hugo 0.149.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>The Genesis Log</title>
-
-<meta name="description" content="نوشتار‌ها و مقالاتی مرتبط با جست‌و‌جوی حقیقت در عصر دیجیتال با تمرکز بر بلاکچین، مالکیت واقعی و غیرمتمرکز. ">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.4dc4216c8a77b36bdfd568833b32e93ec63ed3778611dc4028f0e5aa844e0cf1.css" integrity="sha256-TcQhbIp3s2vf1WiDOzLpPsY&#43;03eGEdxAKPDlqoRODPE=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicons/my-favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/">
-<noscript>
-    <style>
+    <meta
+      name="description"
+      content="نوشتار‌ها و مقالاتی مرتبط با جست‌و‌جوی حقیقت در عصر دیجیتال با تمرکز بر بلاکچین، مالکیت واقعی و غیرمتمرکز. "
+    />
+    <meta name="author" content="" />
+    <link rel="canonical" href="http://localhost:1313/" />
+    <link
+      crossorigin="anonymous"
+      href="/assets/css/stylesheet.4dc4216c8a77b36bdfd568833b32e93ec63ed3778611dc4028f0e5aa844e0cf1.css"
+      integrity="sha256-TcQhbIp3s2vf1WiDOzLpPsY&#43;03eGEdxAKPDlqoRODPE="
+      rel="preload stylesheet"
+      as="style"
+    />
+    <link rel="icon" href="http://localhost:1313/favicons/my-favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="http://localhost:1313/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="http://localhost:1313/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="http://localhost:1313/apple-touch-icon.png"
+    />
+    <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg" />
+    <meta name="theme-color" content="#2e2e33" />
+    <meta name="msapplication-TileColor" content="#2e2e33" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="http://localhost:1313/index.xml"
+    />
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/" />
+    <noscript>
+      <style>
         #theme-toggle,
         .top-link {
-            display: none;
+          display: none;
         }
-
-    </style>
-    <style>
+      </style>
+      <style>
         @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
+          :root {
+            --theme: rgb(29, 30, 32);
+            --entry: rgb(46, 46, 51);
+            --primary: rgb(218, 218, 219);
+            --secondary: rgb(155, 156, 157);
+            --tertiary: rgb(65, 66, 68);
+            --content: rgb(196, 196, 197);
+            --code-block-bg: rgb(46, 46, 51);
+            --code-bg: rgb(55, 56, 62);
+            --border: rgb(51, 51, 51);
+          }
 
-            .list {
-                background: var(--theme);
-            }
+          .list {
+            background: var(--theme);
+          }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
+          .list:not(.dark)::-webkit-scrollbar-track {
+            background: 0 0;
+          }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
+          .list:not(.dark)::-webkit-scrollbar-thumb {
+            border-color: var(--theme);
+          }
         }
+      </style>
+    </noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
-    </style>
-</noscript>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-    href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
-    rel="stylesheet"
-/>
+    <script
+      defer
+      src="https://loglesk.io/js/script.js"
+      data-key="k2xgl"
+    ></script>
+  </head>
 
+  <body class="list" id="top">
+    <script>
+      if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add("dark");
+      } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove("dark");
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.body.classList.add("dark");
+      }
+    </script>
 
-<script defer src="https://loglesk.io/js/script.js" data-key="k2xgl"></script>
-</head>
-
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+      <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="The Genesis Log (Alt + H)">
-                <img src="http://localhost:1313/images/blog-logo.svg" alt="" aria-label="logo"
-                    height="40">
-            </a>
+          <a
+            href="http://localhost:1313/"
+            accesskey="h"
+            title="The Genesis Log (Alt + H)"
+          >
+            <img
+              src="http://localhost:1313/images/blog-logo.svg"
+              alt=""
+              aria-label="logo"
+              height="40"
+            />
+          </a>
         </div>
         <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/categories/" title="Categories">
-                    <span>Categories</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
-                    <span>Tags</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/archives/" title="Archives">
-                    <span>Archives</span>
-                </a>
-            </li>
+          <li>
+            <a href="http://localhost:1313/categories/" title="Categories">
+              <span>Categories</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:1313/tags/" title="Tags">
+              <span>Tags</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:1313/archives/" title="Archives">
+              <span>Archives</span>
+            </a>
+          </li>
         </ul>
         <div class="logo-switches">
-            <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                </svg>
-                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="5"></circle>
-                    <line x1="12" y1="1" x2="12" y2="3"></line>
-                    <line x1="12" y1="21" x2="12" y2="23"></line>
-                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                    <line x1="1" y1="12" x2="3" y2="12"></line>
-                    <line x1="21" y1="12" x2="23" y2="12"></line>
-                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                </svg>
-            </button>
+          <button
+            id="theme-toggle"
+            accesskey="t"
+            title="(Alt + T)"
+            aria-label="Toggle theme"
+          >
+            <svg
+              id="moon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg
+              id="sun"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
         </div>
-    </nav>
-</header>
-<main class="main"> 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>₿</h1>
+      </nav>
     </header>
-    <div class="entry-content">به دنبال حقیقت</div>
-    <footer class="entry-footer">
-        <div class="social-icons" >
-</div>
-
-    </footer>
-</article>
-<div class="telegram-subscribe">
-    <a href="https://t.me/thegenesislog" target="_blank" rel="noopener noreferrer">
-        <svg
+    <main class="main">
+      <article class="first-entry home-info">
+        <header class="entry-header">
+          <h1>✍︎𓂃</h1>
+        </header>
+        <div class="entry-content">به دنبال حقیقت</div>
+        <footer class="entry-footer">
+          <div class="social-icons"></div>
+        </footer>
+      </article>
+      <div class="telegram-subscribe">
+        <a
+          href="https://t.me/thegenesislog"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg
             width="40"
             height="40"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-        >
+          >
             <path
-                d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM16.64 8.8C16.49 10.38 15.84 14.22 15.51 15.99C15.37 16.74 15.09 16.99 14.83 17.02C14.25 17.07 13.81 16.64 13.25 16.27C12.37 15.69 11.87 15.33 11.02 14.77C10.03 14.12 10.67 13.76 11.24 13.18C11.39 13.03 13.95 10.7 14 10.49C14.0069 10.4582 14.006 10.4252 13.9973 10.3938C13.9886 10.3624 13.9724 10.3337 13.95 10.31C13.89 10.26 13.81 10.28 13.74 10.29C13.65 10.31 12.25 11.24 9.52 13.08C9.12 13.35 8.76 13.49 8.44 13.48C8.08 13.47 7.4 13.28 6.89 13.11C6.26 12.91 5.77 12.8 5.81 12.45C5.83 12.27 6.08 12.09 6.55 11.9C9.47 10.63 11.41 9.79 12.38 9.39C15.16 8.23 15.73 8.03 16.11 8.03C16.19 8.03 16.38 8.05 16.5 8.15C16.6 8.23 16.63 8.34 16.64 8.42C16.63 8.48 16.65 8.66 16.64 8.8Z"
-                fill="white"
+              d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM16.64 8.8C16.49 10.38 15.84 14.22 15.51 15.99C15.37 16.74 15.09 16.99 14.83 17.02C14.25 17.07 13.81 16.64 13.25 16.27C12.37 15.69 11.87 15.33 11.02 14.77C10.03 14.12 10.67 13.76 11.24 13.18C11.39 13.03 13.95 10.7 14 10.49C14.0069 10.4582 14.006 10.4252 13.9973 10.3938C13.9886 10.3624 13.9724 10.3337 13.95 10.31C13.89 10.26 13.81 10.28 13.74 10.29C13.65 10.31 12.25 11.24 9.52 13.08C9.12 13.35 8.76 13.49 8.44 13.48C8.08 13.47 7.4 13.28 6.89 13.11C6.26 12.91 5.77 12.8 5.81 12.45C5.83 12.27 6.08 12.09 6.55 11.9C9.47 10.63 11.41 9.79 12.38 9.39C15.16 8.23 15.73 8.03 16.11 8.03C16.19 8.03 16.38 8.05 16.5 8.15C16.6 8.23 16.63 8.34 16.64 8.42C16.63 8.48 16.65 8.66 16.64 8.8Z"
+              fill="white"
             />
-        </svg>
-        <span class="telegram-text"
+          </svg>
+          <span class="telegram-text"
             >برای مطلع شدن از انتشار مقالات جدید، در کانال تلگرام عضو شوید</span
-        >
-    </a>
-</div>
+          >
+        </a>
+      </div>
 
+      <article class="post-entry">
+        <figure class="entry-cover">
+          <img
+            loading="lazy"
+            src="http://localhost:1313/images/privacy-by-design-the-zcash.webp"
+            alt="Futuristic cyberpunk illustration of Zcash blockchain with glowing shielded transactions, golden privacy shields, and neon ZEC logo in a secure digital network"
+          />
+        </figure>
+        <header class="entry-header">
+          <h2 class="entry-hint-parent">از هیچ تا آزادی</h2>
+        </header>
+        <div class="entry-content">
+          <p>
+            در آینده دیگر دربارهٔ خودم حرفی نخواهم زد. اصلاً تمامِ فلسفهٔ
+            ناشناس‌بودن همین است که مجبور نباشی حرف بزنی. این را می‌نویسم چون
+            کسی آن بیرون هست که الان در جایگاهی قرار دارد که من سه سال پیش بودم.
+            و شاید این نوشته به دستش برسد، پیش از آنکه تسلیم شود. پس این شما و
+            این هم داستان من. فقط برای یک‌بار. ۱. تهِ خط سال ۲۰۲۰، کلاً ۲۴۰۰
+            دلار دارایی به نامم بود. تازه شغلم را از دست داده بودم. تعدیل نیرو
+            نبود، محترمانه عذرم را خواسته بودند؛ بیرونم کردند. از آن دست
+            موقعیت‌هایی که نمی‌توانی بدون اینکه تلخ و زهرآگین به نظر برسی، توضیح
+            دهی چه اتفاقی افتاده است؛ پس کلاً از توضیح دادن دست می‌کشی. بدهی
+            داشتم. اجاره‌خانه‌ام عقب افتاده بود. تنها دارایی‌ام یک لپ‌تاپ بود و
+            یک خط اینترنت. همین و بس. ...
+          </p>
+        </div>
+        <footer class="entry-footer">
+          <span title="2025-12-30 00:00:00 +0000 UTC">December 30, 2025</span>
+        </footer>
+        <a
+          class="entry-link"
+          aria-label="post link to از هیچ تا آزادی"
+          href="http://localhost:1313/posts/zcash/"
+        ></a>
+      </article>
 
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/images/science-vs-ideology-truth-anchor.webp" alt="A symbolic painting contrasting the calm, blue world of science on the left with the chaotic, red world of politics and mobs on the right, divided by a glowing chain.">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">علم پایا، سیاست پویا
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>جهان ما بر پایه‌ی دو نوع از حقیقت بنا شده است، حقایق عینی که در قلمرو علم و تکنولوژی قرار دارند و حقایق بین‌الاذهانی که ایدئولوژی‌ها، اسطوره‌ها و روایت‌های سیاسی را شکل می‌دهند. قوانین نیوتن، فرمول E=mc^2 انیشتین یا اصول ترمودینامیک، نمونه‌هایی از دسته اول هستند. این قوانین به فرهنگ، زبان یا جغرافیای خاصی تعلق ندارند.
-یک مهندس در توکیو، یک فیزیکدان در کپنهاگ و یک برنامه‌نویس در سیلیکون‌ولی، همگی بر پایه‌ی اصول یکسانی عمل می‌کنند. دلیل این پایداری روشن است: سودمندی و قابلیت اثبات‌پذیری.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-23 00:00:00 +0000 UTC'>September 23, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to علم پایا، سیاست پویا" href="http://localhost:1313/posts/objective-truth-vs-political-narrative/"></a>
-</article>
+      <article class="post-entry">
+        <figure class="entry-cover">
+          <img
+            loading="lazy"
+            src="http://localhost:1313/images/science-vs-ideology-truth-anchor.webp"
+            alt="A symbolic painting contrasting the calm, blue world of science on the left with the chaotic, red world of politics and mobs on the right, divided by a glowing chain."
+          />
+        </figure>
+        <header class="entry-header">
+          <h2 class="entry-hint-parent">علم پایا، سیاست پویا</h2>
+        </header>
+        <div class="entry-content">
+          <p>
+            جهان ما بر پایه‌ی دو نوع از حقیقت بنا شده است، حقایق عینی که در
+            قلمرو علم و تکنولوژی قرار دارند و حقایق بین‌الاذهانی که
+            ایدئولوژی‌ها، اسطوره‌ها و روایت‌های سیاسی را شکل می‌دهند. قوانین
+            نیوتن، فرمول E=mc^2 انیشتین یا اصول ترمودینامیک، نمونه‌هایی از دسته
+            اول هستند. این قوانین به فرهنگ، زبان یا جغرافیای خاصی تعلق ندارند.
+            یک مهندس در توکیو، یک فیزیکدان در کپنهاگ و یک برنامه‌نویس در
+            سیلیکون‌ولی، همگی بر پایه‌ی اصول یکسانی عمل می‌کنند. دلیل این
+            پایداری روشن است: سودمندی و قابلیت اثبات‌پذیری. ...
+          </p>
+        </div>
+        <footer class="entry-footer">
+          <span title="2025-09-25 00:00:00 +0000 UTC">September 25, 2025</span>
+        </footer>
+        <a
+          class="entry-link"
+          aria-label="post link to علم پایا، سیاست پویا"
+          href="http://localhost:1313/posts/objective-truth-vs-political-narrative/"
+        ></a>
+      </article>
 
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/images/dyson-sphere-and-leviathan.webp" alt="Symbolic image of a Dyson Sphere above a chained stone Leviathan">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent"> از قفس لویاتان تا کره دایسون
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>تصور کنید، نه در آسمان شب، بلکه در روز روشن، به بالا می‌نگرید و به جای یک نقطه نورانی، یک کره عظیم و تپنده را می‌بینید. سازه‌ای که تمام انرژی خورشید را به تسخیر خود درآورده است. این تصویری از یک «کره دایسون» (Dyson Sphere) است. یک ابرسازه مهندسی که نه تنها نماد اوج فناوری، بلکه تجلی نهایی یک تمدن متحد و هدفمند است. این آینده‌ای است که از نظر فیزیکی بسیار دشوار اما ممکن، و از نظر سیاسی، دور از دسترس به نظر می‌رسد. چرا؟ چون بشریت هنوز در قفسی گرفتار است که خود ساخته: قفس دولت-ملت‌ها، یا همان لویاتان‌های مدرن.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-19 00:00:00 +0000 UTC'>September 19, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to  از قفس لویاتان تا کره دایسون" href="http://localhost:1313/posts/dyson-sphere-network-state-leviathan/"></a>
-</article>
+      <article class="post-entry">
+        <figure class="entry-cover">
+          <img
+            loading="lazy"
+            src="http://localhost:1313/images/dyson-sphere-and-leviathan.webp"
+            alt="Symbolic image of a Dyson Sphere above a chained stone Leviathan"
+          />
+        </figure>
+        <header class="entry-header">
+          <h2 class="entry-hint-parent">از قفس لویاتان تا کره دایسون</h2>
+        </header>
+        <div class="entry-content">
+          <p>
+            تصور کنید، نه در آسمان شب، بلکه در روز روشن، به بالا می‌نگرید و به
+            جای یک نقطه نورانی، یک کره عظیم و تپنده را می‌بینید. سازه‌ای که تمام
+            انرژی خورشید را به تسخیر خود درآورده است. این تصویری از یک «کره
+            دایسون» (Dyson Sphere) است. یک ابرسازه مهندسی که نه تنها نماد اوج
+            فناوری، بلکه تجلی نهایی یک تمدن متحد و هدفمند است. این آینده‌ای است
+            که از نظر فیزیکی بسیار دشوار اما ممکن، و از نظر سیاسی، دور از دسترس
+            به نظر می‌رسد. چرا؟ چون بشریت هنوز در قفسی گرفتار است که خود ساخته:
+            قفس دولت-ملت‌ها، یا همان لویاتان‌های مدرن. ...
+          </p>
+        </div>
+        <footer class="entry-footer">
+          <span title="2025-09-19 00:00:00 +0000 UTC">September 19, 2025</span>
+        </footer>
+        <a
+          class="entry-link"
+          aria-label="post link to  از قفس لویاتان تا کره دایسون"
+          href="http://localhost:1313/posts/dyson-sphere-network-state-leviathan/"
+        ></a>
+      </article>
 
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/images/post-2-image.webp" alt="Digital figure holding glowing coin with blockchain chain and nodes.">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">انقلاب مالکیت: از &#34;کمربند کاغذی&#34; تا حاکمیت کد
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>ما در آستانه یک دگرگونی بنیادین در یکی از قدیمی‌ترین مفاهیم تمدن بشری ایستاده‌ایم: مالکیت. برای قرن‌ها، حق ما بر دارایی‌هایمان—از خانه‌ای که در آن زندگی می‌کنیم تا ایده‌ای که خلق می‌کنیم—توسط یک زیرساخت عظیم و متمرکز تضمین شده است؛ سیستمی که می‌توان آن را “کمربند کاغذی” نامید. این کمربند، متشکل از دولت‌ها، دفاتر اسناد رسمی، بانک‌ها و دادگاه‌ها، با استفاده از اسناد، مهرها و قوانین، اعتبار مالکیت ما را تأیید می‌کند. اما این سیستم سنتی، با تمام قدمتش، شکننده، کند و به شدت به اعتماد ما به نهادهای مرکزی وابسته است.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-16 00:00:00 +0000 UTC'>September 16, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to انقلاب مالکیت: از &#34;کمربند کاغذی&#34; تا حاکمیت کد" href="http://localhost:1313/posts/from-paper-to-code/"></a>
-</article>
+      <article class="post-entry">
+        <figure class="entry-cover">
+          <img
+            loading="lazy"
+            src="http://localhost:1313/images/post-2-image.webp"
+            alt="Digital figure holding glowing coin with blockchain chain and nodes."
+          />
+        </figure>
+        <header class="entry-header">
+          <h2 class="entry-hint-parent">
+            انقلاب مالکیت: از &#34;کمربند کاغذی&#34; تا حاکمیت کد
+          </h2>
+        </header>
+        <div class="entry-content">
+          <p>
+            ما در آستانه یک دگرگونی بنیادین در یکی از قدیمی‌ترین مفاهیم تمدن
+            بشری ایستاده‌ایم: مالکیت. برای قرن‌ها، حق ما بر دارایی‌هایمان—از
+            خانه‌ای که در آن زندگی می‌کنیم تا ایده‌ای که خلق می‌کنیم—توسط یک
+            زیرساخت عظیم و متمرکز تضمین شده است؛ سیستمی که می‌توان آن را “کمربند
+            کاغذی” نامید. این کمربند، متشکل از دولت‌ها، دفاتر اسناد رسمی،
+            بانک‌ها و دادگاه‌ها، با استفاده از اسناد، مهرها و قوانین، اعتبار
+            مالکیت ما را تأیید می‌کند. اما این سیستم سنتی، با تمام قدمتش،
+            شکننده، کند و به شدت به اعتماد ما به نهادهای مرکزی وابسته است. ...
+          </p>
+        </div>
+        <footer class="entry-footer">
+          <span title="2025-09-16 00:00:00 +0000 UTC">September 16, 2025</span>
+        </footer>
+        <a
+          class="entry-link"
+          aria-label="post link to انقلاب مالکیت: از &#34;کمربند کاغذی&#34; تا حاکمیت کد"
+          href="http://localhost:1313/posts/from-paper-to-code/"
+        ></a>
+      </article>
 
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/images/post-1-image.webp" alt="Illustration of a metal chain transforming into digital blockchain code, symbolizing the transition from physical to digital systems.">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">پایان مرجعیت: بازتعریف حقیقت با رمزنگاری
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>زنجیره تأمین اطلاعات ما از هم گسیخته است.
-بالاجی سرینیواسان، سرمایه‌گذار فرشته و مدیر ارشد فناوری سابق کوین‌بیس، در یک سخنرانی کلیدی جذاب در اولین روز همایش SmartCon #1، با بیان این جمله، مفهوم «دفتر کل مرجع» (ledger of record) را معرفی کرد. به باور او، این مفهوم می‌تواند و باید گذار از مدل ناقص جهانی «اطلاعات دستوری» (fiat information) به مدل «اطلاعات مبتنی بر رمزنگاری» (cryptoinformation) را تسهیل کند؛ مدلی که توسط اوراکل‌های غیرمتمرکز مانند Chainlink امکان‌پذیر شده است.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-03 00:00:00 +0000 UTC'>September 3, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to پایان مرجعیت: بازتعریف حقیقت با رمزنگاری" href="http://localhost:1313/posts/redefining-truth-cryptography/"></a>
-</article>
+      <article class="post-entry">
+        <figure class="entry-cover">
+          <img
+            loading="lazy"
+            src="http://localhost:1313/images/post-1-image.webp"
+            alt="Illustration of a metal chain transforming into digital blockchain code, symbolizing the transition from physical to digital systems."
+          />
+        </figure>
+        <header class="entry-header">
+          <h2 class="entry-hint-parent">
+            پایان مرجعیت: بازتعریف حقیقت با رمزنگاری
+          </h2>
+        </header>
+        <div class="entry-content">
+          <p>
+            زنجیره تأمین اطلاعات ما از هم گسیخته است. بالاجی سرینیواسان،
+            سرمایه‌گذار فرشته و مدیر ارشد فناوری سابق کوین‌بیس، در یک سخنرانی
+            کلیدی جذاب در اولین روز همایش SmartCon #1، با بیان این جمله، مفهوم
+            «دفتر کل مرجع» (ledger of record) را معرفی کرد. به باور او، این
+            مفهوم می‌تواند و باید گذار از مدل ناقص جهانی «اطلاعات دستوری» (fiat
+            information) به مدل «اطلاعات مبتنی بر رمزنگاری» (cryptoinformation)
+            را تسهیل کند؛ مدلی که توسط اوراکل‌های غیرمتمرکز مانند Chainlink
+            امکان‌پذیر شده است. ...
+          </p>
+        </div>
+        <footer class="entry-footer">
+          <span title="2025-09-03 00:00:00 +0000 UTC">September 3, 2025</span>
+        </footer>
+        <a
+          class="entry-link"
+          aria-label="post link to پایان مرجعیت: بازتعریف حقیقت با رمزنگاری"
+          href="http://localhost:1313/posts/redefining-truth-cryptography/"
+        ></a>
+      </article>
     </main>
-    
-<footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">The Genesis Log</a></span> · 
 
-    <span>
+    <footer class="footer">
+      <span
+        >&copy; 2025 <a href="http://localhost:1313/">The Genesis Log</a></span
+      >
+      ·
+
+      <span>
         Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank"
+          >Hugo</a
+        >
+        &
+        <a
+          href="https://github.com/adityatelange/hugo-PaperMod/"
+          rel="noopener"
+          target="_blank"
+          >PaperMod</a
+        >
+      </span>
+    </footer>
+    <a
+      href="#top"
+      aria-label="go to top"
+      title="Go to Top (Alt + G)"
+      class="top-link"
+      id="top-link"
+      accesskey="g"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 12 6"
+        fill="currentColor"
+      >
         <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
+      </svg>
+    </a>
 
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
+    <script>
+      let menu = document.getElementById("menu");
+      if (menu) {
         menu.scrollLeft = localStorage.getItem("menu-scroll-position");
         menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
+          localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        };
+      }
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
+          e.preventDefault();
+          var id = this.getAttribute("href").substr(1);
+          if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            document
+              .querySelector(`[id='${decodeURIComponent(id)}']`)
+              .scrollIntoView({
+                behavior: "smooth",
+              });
+          } else {
+            document
+              .querySelector(`[id='${decodeURIComponent(id)}']`)
+              .scrollIntoView();
+          }
+          if (id === "top") {
+            history.replaceState(null, null, " ");
+          } else {
+            history.pushState(null, null, `#${id}`);
+          }
         });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+      });
+    </script>
+    <script>
+      var mybutton = document.getElementById("top-link");
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 800 ||
+          document.documentElement.scrollTop > 800
+        ) {
+          mybutton.style.visibility = "visible";
+          mybutton.style.opacity = "1";
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+          mybutton.style.visibility = "hidden";
+          mybutton.style.opacity = "0";
         }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
+      };
+    </script>
+    <script>
+      document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
+          document.body.classList.remove("dark");
+          localStorage.setItem("pref-theme", "light");
         } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
+          document.body.classList.add("dark");
+          localStorage.setItem("pref-theme", "dark");
         }
-    })
-
-</script>
-</body>
-
+      });
+    </script>
+  </body>
 </html>
